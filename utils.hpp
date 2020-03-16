@@ -15,3 +15,8 @@ template <typename F> __Defer__<F> defer_func(F f) { return __Defer__<F>(f); }
 #define ito(N) for (u32 i = 0; i < N; ++i)
 #define jto(N) for (u32 j = 0; j < N; ++j)
 #define kto(N) for (u32 k = 0; k < N; ++k)
+
+#define PERF_HIST_ADD(name, val)
+#define PERF_ENTER(name)
+#define PERF_EXIT(name)
+#define OK_FALLTHROGH (void)0;
